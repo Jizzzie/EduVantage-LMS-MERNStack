@@ -1,0 +1,28 @@
+.video-conatiner {
+  background-color: #000;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+
+  video {
+    height: 100%;
+  }
+}
+
+.video-desc {
+  .like-dislike {
+    img {
+      width: 1rem;
+      cursor: pointer;
+    }
+  
+    span {
+      display: inline-block;
+      min-width: 1.6rem;
+      font-size: large;
+      padding: 0 0.8rem 0 0.1rem;
+    }
+
+    margin-bottom: 0.5rem;
+  }
+}

@@ -1,0 +1,60 @@
+.upload-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem 4rem;
+
+  padding: 6rem;
+  border-width: 2px;
+  border-radius: 2px;
+  border-color: #dfdfdf;
+  border-style: dashed;
+  background-color: #fafafa;
+  font-size: large;
+  color: #bdbdbd;
+  outline: none;
+  transition: border .24s ease-in-out;
+}
+
+.focused-style {
+  border-color: #99cffc
+}
+.accept-style {
+  border-color: #8dffc8
+}
+.reject-style {
+  border-color: #fb859d
+}
+.red-alert {
+  color: #ff708d !important;
+}
+
+.video-details {
+  margin: 3rem 4rem;
+
+  img {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .card-title {
+    margin: 0!important;
+  }
+
+  .card-body {
+    padding: 0.5rem !important;
+  }
+
+}
+
+.alert{
+  a {
+    color: #0a3622;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}

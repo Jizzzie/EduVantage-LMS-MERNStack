@@ -1,0 +1,112 @@
+// sassy css that enables nested styling and defining variable
+$secondary-color: #10c7df;
+
+.logo {
+  width: 12rem;
+}
+
+.secondary-button {
+  font-size: small !important;// takes precedence
+  background-color: $secondary-color!important;
+}
+
+.px-6 {
+  margin: 0 6rem;
+}
+
+.light-bg {
+  background-color:#f4f0e9;
+  // background-image: 'url("data:image/jpeg;base64,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")';
+}
+
+
+.height-100 {
+  height: 100% !important;
+}
+
+#carousel {
+  img {
+    height: 65vh;
+    object-fit: cover;
+  }
+}
+.card {
+  img {
+    height: 12rem;
+    object-fit: cover;
+  }
+  .card-title {
+    font-size: large;
+  }
+  .card-text {
+    font-size: small;
+  }
+  .card-body img {
+    height: 0.8rem;
+  }
+}
+
+#search-icon {
+  max-height: 1rem !important;
+}
+
+header {
+  input {
+    font-size: small !important;
+    width: 16rem !important;
+  }
+  .search-btn {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+  }
+  background-color: #000c19!important;
+}
+
+footer {
+  a {
+    font-size: small !important;
+  }
+}
+
+
+/*Modal*/
+.save-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 16rem;
+
+  background-color: #000c19;
+  color: #fff;
+  border-radius: 5px;
+  padding: 1rem 1.2rem;
+
+  input[type="checkbox"] {
+    transform: scale(1.2);
+  }
+
+  input[type="text"] {
+    width: 100%;
+    background-color: transparent;
+    border-width: 0px 0px 1px 0px;
+  }
+  input[type="text"]:focus {
+    border-color: #fff;
+    outline: 0;
+  }
+}
+
+.row-cols-1 {
+  .video-card:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+}
+
+
+@media only screen and (max-width: 1100px) and (min-width: 768px) {
+  .px-6 {
+    margin: 0;
+  }
+}
