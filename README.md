@@ -9,12 +9,13 @@ EduVantage is an innovative online educational platform designed to provide seam
 5) Individual Video Page: Content detail page for each video with options for viewing and interacting.
 
 **Tech Stack**
-Frontend: React.js for building the user interface.
-Backend: MongoDB
-Package Manager: npm (Node Package Manager) for handling dependencies.
-Version Control: Git for version control and collaboration.
-Operating System: Windows 10/11.
-Text Editor/IDE: Visual Studio Code.
-Web Browsers: Chrome, Firefox, Safari, and Edge.
+1) Frontend: React.js for building the user interface, along with HTML
+2) Styling: Bootstrap, SCSS and Basic CSS Techniques included
+3) Backend: MongoDB
+4) Package Manager: npm (Node Package Manager) for handling dependencies.
+5) Version Control: Git for version control and collaboration.
+6) Operating System: Windows 10/11.
+7) Text Editor/IDE: Visual Studio Code.
+8) Web Browsers: Chrome, Firefox, Safari, and Edge.
 
 **Opening**: Create 2 seperate terminal tabs and navigate to Client and Server side. Use **npm run dev** for Client and node **index.js** for Server Side
