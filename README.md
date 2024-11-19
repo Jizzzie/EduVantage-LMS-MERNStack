@@ -1,5 +1,5 @@
 # EduVantage - Online Educational Platform
-EduVantage is an innovative online educational platform designed to provide seamless access to educational content. It allows both learners and administrators to interact with the platform based on their roles. Built with the MERN stack (MongoDB, Express.js, React, Node.js) and integrated with Firebase, this platform offers functionalities such as video uploads, secure authentication, and an interactive user interface.
+**EduVantage** is an innovative online educational platform designed to provide seamless access to educational content. It allows both learners and administrators to interact with the platform based on their roles. Built with the **MERN stack** (MongoDB, Express.js, React, Node.js) and integrated with Firebase, this platform offers functionalities such as video uploads, secure authentication, and an interactive user interface.
 
 **Features**
 1) Login Form: Secure authentication for users (learners/administrators) via Firebase Authentication.
